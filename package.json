@@ -1,0 +1,30 @@
+{
+  "name": "jspdf-pratice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpalmquist84/jspdf-pratice.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpalmquist84/jspdf-pratice/issues"
+  },
+  "homepage": "https://github.com/dpalmquist84/jspdf-pratice#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "html-pdf": "^2.2.0",
+    "jspdf": "^1.3.5",
+    "nodemon": "^1.12.1",
+    "pdfkit": "^0.8.3"
+  },
+  "devDependencies": {
+    "pdfmake": "^0.1.33"
+  }
+}
